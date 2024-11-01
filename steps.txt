@@ -1,0 +1,15 @@
+Step-1:
+Create git repository and clone it
+--------------------------------------------
+Step:2
+Create venv environment 
+-----------------------------------------
+Step:3
+Create template.py and excecute it will create the folder structure for the project
+------------------------------------------
+Step:4
+Create requirements.txt and setup.py and install the packages (pip install -r requirements.txt)
+-------------------------------------------
+Step:5
+Create logger.py and exception.py
+------------------------------------------------
