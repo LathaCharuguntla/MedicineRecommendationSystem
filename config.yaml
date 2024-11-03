@@ -1,0 +1,22 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_url:
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/training
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/description
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/diets
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/medications
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/precautions
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/symptoms_df
+    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/workout_df
+  
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+
+model_training:
+  model_dir: artifacts/model
+  train_data_path: artifacts/data_transformation/train.csv
+  test_data_path: artifacts/data_transformation/test.csv
+  model_name: model.joblib

@@ -1,0 +1,42 @@
+Diet,Disease
+"['Antifungal Diet', 'Probiotics', 'Garlic', 'Coconut oil', 'Turmeric']",Fungal infection
+"['Elimination Diet', 'Omega-3-rich foods', 'Vitamin C-rich foods', 'Quercetin-rich foods', 'Probiotics']",Allergy
+"['Low-Acid Diet', 'Fiber-rich foods', 'Ginger', 'Licorice', 'Aloe vera juice']",GERD
+"['Low-Fat Diet', 'High-Fiber Diet', 'Lean proteins', 'Whole grains', 'Fresh fruits and vegetables']",Chronic cholestasis
+"['Antihistamine Diet', 'Omega-3-rich foods', 'Vitamin C-rich foods', 'Quercetin-rich foods', 'Probiotics']",Drug Reaction
+"['Low-Acid Diet', 'Fiber-rich foods', 'Ginger', 'Licorice', 'Aloe vera juice']",Peptic ulcer disease
+"['Balanced Diet', 'Protein-rich foods', 'Fruits and vegetables', 'Whole grains', 'Healthy fats']",AIDS
+"['Low-Glycemic Diet', 'Fiber-rich foods', 'Lean proteins', 'Healthy fats', 'Low-fat dairy']",Diabetes
+"['Bland Diet', 'Bananas', 'Rice', 'Applesauce', 'Toast']",Gastroenteritis
+"['Anti-Inflammatory Diet', 'Omega-3-rich foods', 'Fruits and vegetables', 'Whole grains', 'Lean proteins']",Bronchial Asthma
+"['DASH Diet', 'Low-sodium foods', 'Fruits and vegetables', 'Whole grains', 'Lean proteins']",Hypertension
+"['Migraine Diet', 'Low-Tyramine Diet', 'Caffeine withdrawal', 'Hydration', 'Magnesium-rich foods']",Migraine
+"['Arthritis Diet', 'Anti-Inflammatory Diet', 'Omega-3-rich foods', 'Fruits and vegetables', 'Whole grains']",Cervical spondylosis
+"['Heart-Healthy Diet', 'Low-sodium foods', 'Fruits and vegetables', 'Whole grains', 'Lean proteins']",Paralysis (brain hemorrhage)
+"['Liver-Healthy Diet', 'Low-fat Diet', 'Fruits and vegetables', 'Whole grains', 'Lean proteins']",Jaundice
+"['Malaria Diet', 'Hydration', 'High-Calorie Diet', 'Soft and bland foods', 'Oral rehydration solutions']",Malaria
+"['Chicken Pox Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Chicken pox
+"['Dengue Diet', 'Hydration', 'High-Calorie Diet', 'Soft and bland foods', 'Protein-rich foods']",Dengue
+"['Typhoid Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Typhoid
+"['Hepatitis A Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",hepatitis A
+"['Hepatitis B Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Hepatitis B
+"['Hepatitis C Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Hepatitis C
+"['Hepatitis D Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Hepatitis D
+"['Hepatitis E Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Hepatitis E
+"['Liver-Healthy Diet', 'Low-fat Diet', 'Fruits and vegetables', 'Whole grains', 'Lean proteins']",Alcoholic hepatitis
+"['TB Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Tuberculosis
+"['Cold Diet', 'Hydration', 'Warm fluids', 'Rest', 'Honey and lemon tea']",Common Cold
+"['Pneumonia Diet', 'High-Calorie Diet', 'Soft and bland foods', 'Hydration', 'Protein-rich foods']",Pneumonia
+"['Hemorrhoids Diet', 'High-Fiber Diet', 'Hydration', 'Warm baths', 'Stool softeners']",Dimorphic hemmorhoids(piles)
+"['Heart-Healthy Diet', 'Low-sodium foods', 'Fruits and vegetables', 'Whole grains', 'Lean proteins']",Heart attack
+"['Varicose Veins Diet', 'High-Fiber Diet', 'Fruits and vegetables', 'Whole grains', 'Low-sodium foods']",Varicose veins
+"['Hypothyroidism Diet', 'Iodine-rich foods', 'Selenium-rich foods', 'Fruits and vegetables', 'Whole grains']",Hypothyroidism
+"['Hyperthyroidism Diet', 'Low-Iodine Diet', 'Calcium-rich foods', 'Selenium-rich foods', 'Fruits and vegetables']",Hyperthyroidism
+"['Hypoglycemia Diet', 'Complex carbohydrates', 'Protein-rich snacks', 'Fiber-rich foods', 'Healthy fats']",Hypoglycemia
+"['Arthritis Diet', 'Anti-Inflammatory Diet', 'Omega-3-rich foods', 'Fruits and vegetables', 'Whole grains']",Osteoarthristis
+"['Arthritis Diet', 'Anti-Inflammatory Diet', 'Omega-3-rich foods', 'Fruits and vegetables', 'Whole grains']",Arthritis
+"['Vertigo Diet', 'Low-Salt Diet', 'Hydration', 'Ginger tea', 'Vitamin D-rich foods']",(vertigo) Paroymsal Positional Vertigo
+"['Acne Diet', 'Low-Glycemic Diet', 'Hydration', 'Fruits and vegetables', 'Probiotics']",Acne
+"['UTI Diet', 'Hydration', 'Cranberry juice', 'Probiotics', 'Vitamin C-rich foods']",Urinary tract infection
+"['Psoriasis Diet', 'Anti-Inflammatory Diet', 'Omega-3-rich foods', 'Fruits and vegetables', 'Whole grains']",Psoriasis
+"['Impetigo Diet', 'Antibiotic treatment', 'Fruits and vegetables', 'Hydration', 'Protein-rich foods']",Impetigo
