@@ -16,7 +16,6 @@ class ModelTrainer:
         self.config = ModelTrainerConfig(
             model_dir=self.yaml_content['model_training']['model_dir'],
             train_data_path=self.yaml_content['model_training']['train_data_path'],
-            test_data_path=self.yaml_content['model_training']['test_data_path'],
             model_name=self.yaml_content['model_training']['model_name']
         )
 
@@ -28,13 +27,11 @@ class ModelTrainer:
             raise CustomException(e,sys)
         
     def loading_data(self):
-        """Importing the train and test data"""
+        """Importing the train data"""
         try:
           self.train_data = load_csv_data(Path(self.root_dir/self.config.train_data_path))
           logging.info('Loaded train data successfully')
-          self.test_data = load_csv_data(Path(self.root_dir/self.config.test_data_path))
-          logging.info('Loaded test data successfully')
-          return self.train_data, self.test_data
+          return self.train_data
         except Exception as e:
             logging.error(f'Error Occured: {e}')
             raise CustomException(e,sys)
@@ -44,13 +41,11 @@ class ModelTrainer:
         self.creating_directories()
 
         try: 
-            train_data, test_data = self.loading_data()
+            train_data= self.loading_data()
 
             logging.info('Preparing the data for model training')
             X_train = train_data.drop('prognosis', axis=1)
             y_train = train_data['prognosis']
-            X_test = test_data.drop('prognosis', axis=1)
-            y_test = test_data['prognosis']
             
             logging.info('Training the model')
             model = LogisticRegression(random_state=42)

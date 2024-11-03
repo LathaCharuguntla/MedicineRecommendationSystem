@@ -6,6 +6,7 @@ from ensure import ensure_annotations
 from pathlib import Path
 import sys
 import pandas as pd
+import json
 
 
 
@@ -46,6 +47,15 @@ def load_csv_data(file_path:Path):
     except Exception as e:
         logging.error(f'Error Occured: {e}')
         raise CustomException(e,sys)
+    
+
+@ensure_annotations
+def save_json(path:Path, data:dict):
+    """Saving the file in json format"""
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=4)
+    logging.info(f'Saved json.dump(data, f, indent=4)json data at {path}')
+
         
 
 

@@ -15,7 +15,12 @@ class DataTransformationConfig:
 class ModelTrainerConfig:
     model_dir: Path
     train_data_path: Path
-    test_data_path: Path
     model_name: str
 
+@dataclass
+class ModelEvaluationConfig:
+    model_evaluation_path: Path
+    model_path: Path
+    test_data_path: Path
+    metric_file_path: Path
 
