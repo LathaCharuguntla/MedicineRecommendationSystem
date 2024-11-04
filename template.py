@@ -5,7 +5,6 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 list_of_files = [
-    ".github/workflows/.gitkeep",
     "src/__init__.py",
     "src/components/__init__.py",
     "src/utilis/__init__.py",
@@ -17,16 +16,12 @@ list_of_files = [
     "src/logger.py",
     "src/exception.py",
     "notebook/trails.ipynb",
-    "yaml/config.yaml",
-    "yaml/params.yaml",
-    "yaml/schema.yaml",
+    "config.yaml",
     "main.py",
     "app.py",
-    "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "templates/index.html",
-    "test.py"
+    "templates/index.html"
 ]
 
 

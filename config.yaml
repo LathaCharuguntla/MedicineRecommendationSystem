@@ -8,20 +8,23 @@ data_ingestion:
     - https://datasetsurl-9cc6ccd16e07.herokuapp.com/diets
     - https://datasetsurl-9cc6ccd16e07.herokuapp.com/medications
     - https://datasetsurl-9cc6ccd16e07.herokuapp.com/precautions
-    - https://datasetsurl-9cc6ccd16e07.herokuapp.com/symptoms_df
     - https://datasetsurl-9cc6ccd16e07.herokuapp.com/workout_df
   
 
 data_transformation:
   root_dir: artifacts/data_transformation
+  symptoms_list_path: artifacts/symptoms_list
 
 model_training:
   model_dir: artifacts/model
   train_data_path: artifacts/data_transformation/train.csv
   model_name: model.joblib
+  disease_list_path: artifacts/disease_list
+  encoder_path: artifacts/model/encoder.joblib
 
 model_evaluation:
   model_evaluation_dir: artifacts/model_evaluation
   model_path: artifacts/model/model.joblib
   test_data_path: artifacts/data_transformation/test.csv
   metric_file_path: artifacts/model_evaluation/metrics.json
+  encoder_path: artifacts/model/encoder.joblib

@@ -61,7 +61,6 @@ def save_json(path:Path, data:dict):
 
 
 
-
 if __name__=="__main__":
     content = load_csv_data(Path('../../artifacts/data_ingestion/diets.csv'))
     print(content.head())

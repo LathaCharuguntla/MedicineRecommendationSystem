@@ -18,7 +18,8 @@ class ModelEvaluation:
             model_evaluation_path=self.yaml_content['model_evaluation']['model_evaluation_dir'],
             model_path = self.yaml_content['model_evaluation']['model_path'],
             test_data_path=self.yaml_content['model_evaluation']['test_data_path'],
-            metric_file_path=self.yaml_content['model_evaluation']['metric_file_path']
+            metric_file_path=self.yaml_content['model_evaluation']['metric_file_path'],
+            encoder_path=self.yaml_content['model_evaluation']['encoder_path']
         )
 
     def creating_directories(self):
@@ -51,11 +52,15 @@ class ModelEvaluation:
             logging.info('Loading model for prediction')
 
             model = joblib.load(Path(self.root_dir/self.config.model_path))
+            encoder = joblib.load(Path(self.root_dir/self.config.encoder_path))
+
             X_test = test_data.drop('prognosis', axis=1)
             y_test = test_data['prognosis']
+            y_processed_test = encoder.transform(y_test)
+
             y_predict = model.predict(X_test)
 
-            accuracy, recall, precision = self.eval_metrics(y_test, y_predict)
+            accuracy, recall, precision = self.eval_metrics(y_processed_test, y_predict)
             results = {
                 'Accuracy_Score': accuracy,
                 'Recall': recall,

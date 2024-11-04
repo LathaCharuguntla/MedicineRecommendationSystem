@@ -10,12 +10,15 @@ class DataIngestionConfig:
 @dataclass
 class DataTransformationConfig:
     root_dir: Path
+    symptoms_list_path: Path
 
 @dataclass
 class ModelTrainerConfig:
     model_dir: Path
     train_data_path: Path
     model_name: str
+    disease_list_path: Path
+    encoder_path: Path
 
 @dataclass
 class ModelEvaluationConfig:
@@ -23,4 +26,5 @@ class ModelEvaluationConfig:
     model_path: Path
     test_data_path: Path
     metric_file_path: Path
+    encoder_path: Path
 
