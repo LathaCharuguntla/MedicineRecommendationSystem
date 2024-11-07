@@ -26,11 +26,11 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Lathacharujenny/MobileCostPrediction.git
+   git clone https://github.com/Lathacharujenny/MedicineRecommendationSystem.git
    ```
 2. Navigate to the project directory:
     ```bash
-       cd 
+       cd MedicineRecommendationSystem
    ```
 3. Install the required packages:
     ```bash
