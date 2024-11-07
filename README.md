@@ -2,11 +2,11 @@
 A web-based Medicine Recommendation System that predicts diseases and provides recommendations for medications, diets, workouts, and precautions based on user inputs. This app is built using Flask and deployed on Heroku.
 
 ## Table of Contents
--[Features](##features)
--[Datasets](##datasets)
--[Installation](##installation)
--[Usage](##usage)
--[Deployment](##deployment)
+- [Features](##features)
+- [Datasets](##datasets)
+- [Installation](##installation)
+- [Usage](##usage)
+- [Deployment](##deployment)
 
 ## Features
 -**Predict Disease**: Allows users to input symptoms, then predicts possible diseases.
