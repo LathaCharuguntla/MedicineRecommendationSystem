@@ -1,5 +1,5 @@
 # MedicineRecommendationSystem
-A web-based Medicine Recommendation System that predicts diseases and provides recommendations for medications, diets, workouts, and precautions based on user inputs. This app is built using Flask and deployed on Heroku.
+A web-based Medicine Recommendation System that predicts diseases and provides recommendations for medications, diets, workouts, and precautions based on user inputs. This app is built using Flask and deployed on Render.
 
 ## Table of Contents
 - [Features](##features)
@@ -17,9 +17,9 @@ A web-based Medicine Recommendation System that predicts diseases and provides r
 The app features separate buttons for each of these functions, allowing users to click and get the specific information they need.
 
 ## Datasets
--The datasets (in CSV format) are hosted as part of the app, with Flask and Heroku serving the files directly through URL links.
+-The datasets (in CSV format) are hosted as part of the app, with Flask and Render serving the files directly through URL links.
   - Github link - https://github.com/Lathacharujenny/DatasetsUrl.git
-  - App link - https://datasetsurl-9cc6ccd16e07.herokuapp.com/
+  - App link - https://datasetsurl-9cc6ccd16e07.Renderapp.com/
 ## Installation
 
 To set up this project locally, follow these steps:
@@ -42,7 +42,7 @@ To run the application locally, execute the following command:
  ```bash
        python app.py
    ```
-Once the application is running, open your web browser and navigate to http://127.0.0.1:5000 to access the mobile price prediction interface.
+Once the application is running, open your web browser and navigate to http://127.0.0.1:5000 to access.
 
 ## Deployement
-The application is deployed on Heroku. You can access it at: https://medicinerecommendationsystem-3044763a0cbe.herokuapp.com/
+The application is deployed on Render. You can access it at: https://medicinerecommendationsystem.onrender.com/
