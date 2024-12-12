@@ -9,11 +9,11 @@ A web-based Medicine Recommendation System that predicts diseases and provides r
 - [Deployment](##deployment)
 
 ## Features
--**Predict Disease**: Allows users to input symptoms, then predicts possible diseases.
--**Medication Recommendations**: Suggests relevant medications based on the predicted disease.
--**Diet Recommendations**: Provides diet plans associated with the predicted condition.
--**Workout Recommendations**: Offers workout suggestions based on health conditions.
--**Precautions**: Lists necessary precautions related to the predicted disease.
+- **Predict Disease**: Allows users to input symptoms, then predicts possible diseases.
+- **Medication Recommendations**: Suggests relevant medications based on the predicted disease.
+- **Diet Recommendations**: Provides diet plans associated with the predicted condition.
+- **Workout Recommendations**: Offers workout suggestions based on health conditions.
+- **Precautions**: Lists necessary precautions related to the predicted disease.
 The app features separate buttons for each of these functions, allowing users to click and get the specific information they need.
 
 ## Datasets
